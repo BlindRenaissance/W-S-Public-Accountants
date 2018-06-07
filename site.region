@@ -1,0 +1,29 @@
+<div id="wrapper">
+	<section id="page" role="main" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+    {.section collection}
+      <header class="page-title" data-collection-id="{id}"><h1>{title}</h1></header>
+      <div class="page-description" data-collection-id="{id}">{description}</div>
+    {.end}
+    <!-- CATEGORY NAV -->
+    {.section collection}{.equal? typeName "products"}{.section categories}
+    <div id="categoryNav">
+      <input type="checkbox" name="category-nav-toggle" id="categoryNavToggle" class="category-nav-toggle hidden" />
+      <label for="categoryNavToggle" class="category-nav-toggle-label" onclick></label>
+      <nav class="category-nav">
+        <ul class="category-nav-links">
+          <li class="filter"><a>Filter{.if categoryFilter}: {categoryFilter}{.end}</a></li>
+          <li{.if categoryFilter}{.or} class="active-link all"{.end}><a href="{fullUrl}">All</a></li>
+        {.repeated section @}
+          <li{.equal? categoryFilter @} class="active-link"{.end}><a href="{fullUrl}?category={@|url-encode}">{@}</a></li>
+        {.end}
+        </ul>
+      </nav>
+    </div>
+    {.end}{.end}{.end}
+    {squarespace.main-content}
+  </section>
+  <aside id="sidebar">
+    <squarespace:block-field id="sidebarBlocks" label="Sidebar Content" />
+  </aside>
+</div>
+
