@@ -1,6 +1,6 @@
 <div id="wrapper">
 
-	<section id="page" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
+	<section id="Custom-Header" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
 	<squarespace:block-field id="blockField1" columns="12"/>
 	</section>
 
