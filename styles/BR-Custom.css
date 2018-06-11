@@ -20,33 +20,32 @@
   padding-top: 20px;
 }
 
-#sidebar {
-  margin-top: 200px;
-}
-
 #canvas {
   margin-top: -60px;
 }
 
 #wrapper {
-  background-image: url('http://static.squarespace.com/static/524b2b1ae4b07530b6387da6/t/524c9124e4b05018590b5c1b/1380749604483/background.jpg');
+  /*background-image: url('http://static.squarespace.com/static/524b2b1ae4b07530b6387da6/t/524c9124e4b05018590b5c1b/1380749604483/background.jpg');
   background-repeat: repeat-x;
+  */
+  background-color: #fff;
 }
 
 #collection-524b2c47e4b07530b638810f #wrapper {
   padding: 0;
-  background-image: none;
 }
 
+// home width hack //
 #collection-524b2c47e4b07530b638810f p {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 0px 28px;
 }
 
+/*
 .sqs-col-12 .sqs-col-4 {
   margin-left: 20px;
   margin-right: -40px;
 }
+*/
 
 #block-d5cabb82d5ddb6300828 {
   margin-top: -6px;
@@ -183,5 +182,65 @@
   .sqs-col-12 .sqs-col-4 {
     margin-left: 10px;
     margin-right: -20px;
+  }
+}
+
+//New Tyler Code//
+/*Fixed sidebar//
+#sidebar {
+  width: 228px !important;
+  position: fixed !important;
+  top: 384px !important;
+  right: 488px !important;
+}
+
+#sidebar .sqs-col-1 {
+  background-color: #fff;
+  -webkit-box-shadow: -3px 3px 7px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: -3px 3px 7px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: -3px 3px 7px 0px rgba(0, 0, 0, 0.1);
+}
+*/
+
+#wrapper {
+  background: linear-gradient(#eeeced 250px, #fff 250px);
+}
+
+body {
+  background: linear-gradient(#beb6a9 250px, #ebebeb 250px);
+}
+
+#sidebar {
+  top: 300px !important;
+}
+
+#page {
+  padding-right: 12px;
+  padding-top: 12px;
+}
+
+//Mobile Menu//
+#mobileMenuLink {
+  width: 65px !important;
+  background-color: #3d6496 !important;
+  position: absolute !important;
+  top: 16px !important;
+  right: 5% !important;
+}
+
+#mobileMenuLink a {
+  color: #eeeced !important;
+}
+
+@media only screen and (max-width: 700px) {
+  #logo {
+    margin: 80px;
+  }
+}
+
+//fix logo medium//
+@media only screen and (min-width: 700px) and (max-width:960px) {
+  .logo-image .logo img {
+    left: -30%;
   }
 }
