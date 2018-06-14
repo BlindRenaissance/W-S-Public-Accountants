@@ -1,7 +1,7 @@
 <div id="wrapper">
 
-  <section id="Custom-Header" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
-	<squarespace:block-field id="blockField1" columns="12"/>
+  <section id="Custom-Header">
+	<squarespace:block-field id="blockField1-{squarespace.page-id}" columns="12"/>
 	</section>
 
   <section id="page" role="main" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
