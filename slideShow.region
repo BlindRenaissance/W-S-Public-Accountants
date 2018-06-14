@@ -1,7 +1,9 @@
 <div id="wrapper">
-  <section id="slideshow-{collection.id}">
-    <squarespace:block-field id="blockField1" columns="1"/>
-  </section>
+
+  <section id="Custom-Header-{squarespace.page-id}">
+	<squarespace:block-field id="blockField1-{squarespace.page-id}" columns="12"/>
+	</section>
+
   <section id="page" role="main" data-content-field="main-content" data-collection-id="{collection.id}" data-edit-main-image="Page Banner">
     {.section collection}
       <header class="page-title" data-collection-id="{id}"><h1>{title}</h1></header>
