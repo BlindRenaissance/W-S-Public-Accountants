@@ -1,6 +1,6 @@
 <div id="wrapper">
 
-  <section id="Custom-Header">
+  <section id="Custom-Header-{squarespace.page-id}">
 	<squarespace:block-field id="blockField1-{squarespace.page-id}" columns="12"/>
 	</section>
 
