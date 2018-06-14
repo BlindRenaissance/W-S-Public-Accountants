@@ -27,6 +27,7 @@
 
 #wrapper {
   background: linear-gradient(#eeeced 250px, #fff 250px);
+  padding: 0;
 }
 
 //home edits//
@@ -60,10 +61,16 @@ body {
   margin-right: 0;
 }
 
-//idk//
+//fix paddings//
 #page {
-  padding-right: 12px;
-  padding-top: 12px;
+  padding: 24px;
+}
+
+//HOMEPAGE STYLES (no sidebar)//
+#collection-5b22a15703ce6433bbc61a82 {
+  #page {
+    margin: 0 !important;
+  }
 }
 
 //Mobile Menu//
