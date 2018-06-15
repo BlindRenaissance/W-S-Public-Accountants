@@ -57,6 +57,7 @@ body {
 #sidebar {
   top: 300px !important;
   right: 0px !important;
+  padding: 32px;
 }
 
 #page-524b2c47e4b07530b638810f .sqs-layout>.sqs-row {
