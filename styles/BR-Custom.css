@@ -1,6 +1,8 @@
+/*original custom css - Slightly edited, lol*/
+
 .logo-image .logo img {
   position: relative;
-  margin-top: -70px;
+  margin-top: -60px;
   left: -35%;
 }
 
@@ -17,171 +19,107 @@
 }
 
 .page-collection {
-  padding-top: 20px;
-}
-
-#sidebar {
-  margin-top: 200px;
+  padding-top: 40px;
 }
 
 #canvas {
-  margin-top: -60px;
+  margin-top: -25px;
 }
 
 #wrapper {
-  background-image: url('http://static.squarespace.com/static/524b2b1ae4b07530b6387da6/t/524c9124e4b05018590b5c1b/1380749604483/background.jpg');
-  background-repeat: repeat-x;
+  background: linear-gradient(#eeeced 250px, #fff 250px);
+  padding: 0;
 }
+
+/*home edits*/
 
 #collection-524b2c47e4b07530b638810f #wrapper {
   padding: 0;
-  background-image: none;
 }
 
-#collection-524b2c47e4b07530b638810f p {
-  padding-left: 30px;
-  padding-right: 30px;
+#block-07d976e675a613fb3e12 {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.sqs-col-12 .sqs-col-4 {
-  margin-left: 20px;
-  margin-right: -40px;
+#block-54513f316a8d99981c00 .sqs-block-content, #block-6d4ad8abea724f02ccaf .sqs-block-content, #block-f06c624e67af1ef6dc99 .sqs-block-content {
+  -webkit-box-shadow: 0px -3px 13px -4px rgba(0, 0, 0, 0.47);
+  -moz-box-shadow: 0px -3px 13px -4px rgba(0, 0, 0, 0.47);
+  box-shadow: 0px -3px 13px -4px rgba(0, 0, 0, 0.47);
+  background-color: #fff;
+  padding: 20px;
 }
 
-#block-d5cabb82d5ddb6300828 {
-  margin-top: -6px;
+body {
+  background: linear-gradient(#beb6a9 250px, #ebebeb 250px);
 }
 
-#block-dcd7a282e1ee345be76b {
-  margin-top: -6px;
+#sidebar {
+  top: 300px !important;
 }
 
-//BANNER OVERRIDE //
-#collection-524b3872e4b03626b6c18848 #wrapper {
-  background-image: url('http://static.squarespace.com/static/524b2b1ae4b07530b6387da6/t/52548802e4b09b5bd40935ba/1381271554105/background%202.jpg');
+#page-524b2c47e4b07530b638810f .sqs-layout>.sqs-row {
+  margin-left: 0;
+  margin-right: 0;
 }
 
-#collection-524b3872e4b03626b6c18859 #wrapper {
-  background-image: url('http://static.squarespace.com/static/524b2b1ae4b07530b6387da6/t/52548802e4b09b5bd40935ba/1381271554105/background%202.jpg');
+/*fix paddings*/
+
+#page, #Custom-Header {
+  padding: 24px;
 }
 
-#collection-524b388be4b03626b6c18f6b #wrapper {
-  background-image: url('http://static.squarespace.com/static/524b2b1ae4b07530b6387da6/t/52548802e4b09b5bd40935ba/1381271554105/background%202.jpg');
+/*HOMEPAGE STYLES (no sidebar)*/
+
+#collection-5b22a15703ce6433bbc61a82 {
+  #page {
+    margin: 0 !important;
+  }
 }
 
-#collection-524b388ce4b03626b6c18f74 #wrapper {
-  background-image: url('http://static.squarespace.com/static/524b2b1ae4b07530b6387da6/t/52548802e4b09b5bd40935ba/1381271554105/background%202.jpg');
+/*Mobile Menu*/
+
+#mobileMenuLink {
+  width: 65px !important;
+  background-color: #3d6496 !important;
+  position: absolute !important;
+  top: 16px !important;
+  right: 5% !important;
 }
 
-#collection-536bc84ce4b02a974e6886f1 #wrapper {
-  background-image: url('http://static.squarespace.com/static/524b2b1ae4b07530b6387da6/t/52548802e4b09b5bd40935ba/1381271554105/background%202.jpg');
+#mobileMenuLink a {
+  color: #eeeced !important;
 }
 
-//SIDEBAR HOVER //
-#block-d666f8f6e74e4f11d6cd {
-  position: fixed;
+@media only screen and (max-width: 976px) {
+  #logo {
+    margin: 80px;
+    max-width: 350px;
+  }
+  /*fullwidth mobile slideshow*/
+  .sqs-gallery-block-slideshow {
+    max-width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    padding-left: 0px;
+  }
+  #Custom-Header-collection-5b22a15703ce6433bbc61a82 {
+    margin-top: -65px;
+  }
+  #wrapper {
+    background-color: #fff;
+    background: #fff;
+  }
+  /*center sidebar content when at bottom*/
+  #block-yui_3_17_2_1_1528391381327_802 {
+    text-align: center;
+  }
 }
 
-#block-c51d3b0e43ba0ff3f437 {
-  position: fixed;
-}
+/*fix logo medium*/
 
-#block-11212d1645f70bde3678 {
-  position: fixed;
-}
-
-#block-cb1980392366a1e017c4 {
-  position: fixed;
-}
-
-#block-01fc8ef25d2fd4990f94 {
-  position: fixed;
-}
-
-#block-d7423e3e62e87f948c37 {
-  position: fixed;
-}
-
-#block-b3cdd855d9a6b6da4bee {
-  position: fixed;
-}
-
-// OUR TEAM //
-#collection-524b388ce4b03626b6c18f7d #wrapper {
-  background-image: url('http://static.squarespace.com/static/524b2b1ae4b07530b6387da6/t/52549b97e4b0e53491ed022d/1381276567178/background3.jpg');
-}
-
-#collection-524b42f7e4b09b795faf41dc #wrapper {
-  padding: 0;
-  background-image: none;
-}
-
-#collection-524b42f7e4b09b795faf41dc h2 {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-#collection-524b42f7e4b09b795faf41dc h3 {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-#collection-524b42f7e4b09b795faf41dc .form-wrapper {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-#block-4ac25c899c6044a7460d {
-  margin-bottom: -70px;
-}
-
-#block-9854a6197d47bdfe9545 {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#block-342958808fa9e6b6177b {
-  margin-bottom: -70px;
-}
-
-#block-6d4ad8abea724f02ccaf {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#block-311add94e3b6fe8bbadf {
-  margin-bottom: -50px;
-}
-
-#block-f06c624e67af1ef6dc99 {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-@media screen and (max-width: 700px) {
+@media only screen and (max-width:976px) {
   .logo-image .logo img {
-    position: relative;
-    margin-top: -50px;
-    width: 250px;
-    margin-left: 40%;
-  }
-  #header #topNav {
-    margin-left: 280px;
-  }
-  h1 {
-    text-align: center;
-  }
-  h2 {
-    text-align: center;
-  }
-  h3 {
-    text-align: center;
-  }
-  p {
-    text-align: center;
-  }
-  .sqs-col-12 .sqs-col-4 {
-    margin-left: 10px;
-    margin-right: -20px;
+    left: -20%;
   }
 }
