@@ -65,7 +65,7 @@ body {
 
 /*fix paddings*/
 
-#page, #Custom-Header {
+#page, .sidebarPage-header {
   padding: 24px;
 }
 
