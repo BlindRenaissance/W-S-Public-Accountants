@@ -97,6 +97,7 @@ body {
   #logo {
     margin: 80px;
     max-width: 350px;
+    max-height: 25px;
   }
   /*fullwidth mobile slideshow*/
   .sqs-gallery-block-slideshow {
@@ -104,6 +105,9 @@ body {
     margin-left: -50vw;
     left: 50%;
     padding-left: 0px;
+  }
+  #collection-524b2c47e4b07530b638810f #wrapper, #block-yui_3_17_2_1_1529081728766_4196 {
+    padding-top: 0;
   }
   #Custom-Header-collection-5b22a15703ce6433bbc61a82 {
     margin-top: -65px;
